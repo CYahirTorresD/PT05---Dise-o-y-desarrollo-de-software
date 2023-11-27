@@ -1,5 +1,7 @@
 import math
 import time
+
+# Se añadio texto para validar control de versiones  -CTorres 26/11/23
 def suma_numeros():
     n = int(input("Ingrese la cantidad de números a sumar: "))
     numeros = [float(input(f"Ingrese el número {i + 1}: ")) for i in range(n)]
@@ -110,6 +112,5 @@ def menu():
             break
         else:
             print("Opción no válida. Inténtelo de nuevo.")
-
 
 menu()
